@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ystt/pages/home/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -107,9 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
         )),
         body: TabBarView(
           children: <Widget>[
-            Center(
-              child: Text('首页'),
-            ),
+            Home(),
             Center(
               child: Text('电影'),
             ),
